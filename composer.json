@@ -1,0 +1,29 @@
+{
+   "name": "gurkanbicer/getdns",
+   "description": "GetDNS is a parser for dig command results.",
+   "keywords": [
+      "dns lookup",
+      "dig",
+      "getdns",
+      "dns"
+   ],
+   "authors": [
+      {
+         "name": "Gürkan Biçer",
+         "email": "bicergurkan@gmail.com"
+      }
+   ],
+   "type": "project",
+   "require": {
+      "php": ">=8.0.2",
+      "symfony/process": "6.0.0"
+   },
+   "require-dev": {
+      "phpunit/phpunit": "^11.3.3"
+   },
+   "autoload": {
+      "psr-4": {
+         "Gurkanbicer\\Getdns\\": "src/"
+      }
+   }
+}
